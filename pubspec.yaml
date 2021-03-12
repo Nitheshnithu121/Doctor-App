@@ -62,6 +62,10 @@ flutter:
    - images/doc5.png
    - images/doc6.png
    - images/docbg.png
+   - images/phone.png
+   - images/mess.png
+   - images/video.png
+   - images/docbackground.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

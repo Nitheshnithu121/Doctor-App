@@ -7,7 +7,9 @@ final Color getStartedColorEnd = Color(0xff00AABF);
 final Color path2Color = Color(0xffcef4e8);
 final Color docBgColor = Color(0xffE9B5FF);
 final Color docContentBgColor = Color(0xffECf0F5);
+final Color docContentBgColor2 = Color(0xffFFE8CC);
 final Color dateBgColor = Color(0xffD5E0FA);
 final Color dateColor = Color(0xff3479C0);
+final Color aboutColor = Color(0xffF9BF03);
 
 

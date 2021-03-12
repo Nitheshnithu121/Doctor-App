@@ -164,7 +164,7 @@ class _MyFirstPageState extends State<MyFirstPage> {
           margin: EdgeInsets.only(bottom: 15),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(12)),
-            color: docContentBgColor,
+            color: docContentBgColor2,
           ),
           child: Container(
             padding: EdgeInsets.all(7),

@@ -67,11 +67,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               Positioned(
-                bottom: MediaQuery.of(context).size.height*0.15,
+                bottom: MediaQuery.of(context).size.height*0.19,
                 child: Container(
                   width: MediaQuery.of(context).size.width,
                   child: Center(
-                    child: Image.asset('images/onBoardDoc.png'),
+                    child: Image.asset('images/docbackground.png'),
+
 
                   ),
                 ),

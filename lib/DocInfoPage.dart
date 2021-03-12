@@ -76,10 +76,36 @@ class _docInfoPageState extends State<docInfoPage> {
                                 fontSize: 20,
                                 fontWeight: FontWeight.w400,
                               ),),
-                              Text("Heart Surgeon -OK Hospital", style: TextStyle(
+                              Text("Heart Surgeon -AIM Hospital", style: TextStyle(
                                 fontSize: 17,
                                 fontWeight: FontWeight.w400,
-                              ),)
+                                color: dateColor,
+                              ),),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Row(
+                                children: [
+                                  Container(
+                                    child: Image.asset('images/phone.png',),
+                                    padding: EdgeInsets.all(10),
+                                    height: 45,
+                                    width: 45,
+                                  ),
+                                  Container(
+                                    child: Image.asset('images/mess.png',),
+                                    padding: EdgeInsets.all(10),
+                                    height: 45,
+                                    width: 45,
+                                  ),
+                                  Container(
+                                    child: Image.asset('images/video.png',),
+                                    padding: EdgeInsets.all(10),
+                                    height: 45,
+                                    width: 45,
+                                  ),
+                                ],
+                              )
                             ],
                           )
                         ],
@@ -89,10 +115,24 @@ class _docInfoPageState extends State<docInfoPage> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("About the Doctor", style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.w800,
-                            ),),
+                            SizedBox(
+                              height: 16,
+                            ),
+                            Container(
+                              padding: EdgeInsets.symmetric(horizontal: 8,vertical: 8),
+                              decoration: BoxDecoration(
+                                color: docContentBgColor2,
+                                border: Border.all(color: dateColor, width: 1),
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                             child: Text("About the Doctor", style: TextStyle(
+                                fontSize: 18,
+                                color: aboutColor,
+                                fontWeight: FontWeight.w800,
+
+                              ),),
+                            ),
+
                             SizedBox(height: 10,),
                             Text("Here we can write detailed report about doctor. This will be a detailed information about the doctor and the roles and achievements that the doctor has had the past years", style: TextStyle(
                               fontSize: 14,
