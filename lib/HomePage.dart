@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hello_doctor/DocInfoPage.dart';
 import 'package:hello_doctor/colorScheme.dart';
 import 'package:hello_doctor/main.dart';
+import 'package:hello_doctor/Logpage.dart';
 
 
 class HomePage extends StatelessWidget {

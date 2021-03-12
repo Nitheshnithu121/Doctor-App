@@ -1,8 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'colorScheme.dart';
+import 'package:hello_doctor/DocInfoPage.dart';
 import 'package:hello_doctor/HomePage.dart';
+import 'package:hello_doctor/Logpage.dart';
+import 'colorScheme.dart';
 import 'package:flutter/services.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       home: MyHomePage(),
       routes:{
-        '/home_page' : (context) => HomePage(),
+        '/Logpage' : (context) => LoginPage()
     },
 
     );
@@ -103,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ),
                   ),
-                  onTap: openHomePage,
+                  onTap: openLoginPage,
                 ),
               )
             ],
@@ -116,9 +119,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   }
 
-  void openHomePage()
+  void openLoginPage()
   {
-    Navigator.pushNamed(context,'/home_page');
+    Navigator.pushNamed(context,'/Logpage');
 
   }
 }
