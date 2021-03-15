@@ -23,7 +23,6 @@ class MyApp extends StatelessWidget {
       routes:{
         '/Logpage' : (context) => LoginPage()
     },
-
     );
   }
 }

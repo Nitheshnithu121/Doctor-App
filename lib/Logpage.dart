@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hello_doctor/HomePage.dart';
+import 'colorScheme.dart';
 
 
 void main() {
@@ -29,6 +30,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: Container(
         width: double.infinity,
         decoration: BoxDecoration(
@@ -133,7 +135,7 @@ class _LoginPageState extends State<LoginPage> {
                               color: Colors.orange[900]
                           ),
                           child: Center(
-                            child: Text("Login",style: TextStyle(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold),),
+                            child: Text("Login",style: TextStyle(color:Colors.white, fontSize: 16, fontWeight: FontWeight.bold),),
 
                           ),
                         ),onPressed: (){
